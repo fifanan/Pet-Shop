@@ -1,12 +1,45 @@
 * {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
+}
+body {
+  color: #263138;
 }
 
 header {
   background-color: #ff9a6c;
-
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+header nav a {
+  color: white;
+  font-weight: 600;
+  padding: 32px;
+  text-decoration: none;
+}
+#inicio {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  /* topo, direita, baixo e esquerda */
+  padding: 24px 80px 128px 80px;
+  position: relative;
+}
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.p1{
+line-height: 150%;
+margin-bottom: 32px;
 
+}
